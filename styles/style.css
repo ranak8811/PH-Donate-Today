@@ -300,6 +300,33 @@ body {
 }
 /* my update section ends here */
 
+/* footer section starts here */
+.footer-container {
+  width: 1380px;
+  height: 177px;
+  background: rgb(11, 13, 23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+.footer-container h4 {
+  color: rgb(255, 89, 89);
+  font-family: "Lobster", "sans-serif";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.footer-container p {
+  color: rgb(217, 219, 225);
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+/* footer section ends here */
+
 /* main design ends here */
 
 /* responsive for small screens */
@@ -379,5 +406,9 @@ body {
   .mail .btn-primary {
     margin: 0 auto;
     margin-top: 20px;
+  }
+
+  .footer-container {
+    width: 100%;
   }
 }
