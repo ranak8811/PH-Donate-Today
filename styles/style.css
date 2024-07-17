@@ -262,6 +262,44 @@ body {
 
 /* blog section ends here */
 
+/* my update section starts here */
+.my-update-section {
+  max-width: 809px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.mail {
+  /* border: 2px solid red; */
+  width: 809px;
+  height: 200px;
+  background: rgb(255, 244, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 10px;
+}
+
+#mail-id {
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  margin-top: 33px;
+  margin-left: 50px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.mail .btn-primary {
+  margin-right: 45px;
+}
+/* my update section ends here */
+
 /* main design ends here */
 
 /* responsive for small screens */
@@ -326,5 +364,20 @@ body {
 
   .blog-2 .blog-text {
     margin-left: -10px;
+  }
+
+  .mail {
+    max-width: 90%;
+    flex-direction: column;
+  }
+
+  #mail-id {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mail .btn-primary {
+    margin: 0 auto;
+    margin-top: 20px;
   }
 }
